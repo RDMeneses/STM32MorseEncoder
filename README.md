@@ -11,7 +11,7 @@ This project demonstrates a Morse code encoder running on an STM32F411 Blackpill
   - **Dash:** 600ms 
   - **Intra-character gap:** 200ms 
   - **Inter-character gap:** 600ms
-  - **Inter-word gap: **1400ms
+  - **Inter-word gap:** 1400ms
 - **OLED Display:** Displays the current character on an SSD1306-based OLED during playback.
 - **Buzzer Control:** Uses PWM (via a timer) to drive the buzzer.
 
