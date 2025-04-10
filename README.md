@@ -50,7 +50,7 @@ This project demonstrates a Morse code encoder running on an STM32F411 Blackpill
 
 3. **Operating the Device:**
    - On startup, the default message is played in Morse code.
-   - Press the button to cycle through the three hardcoded messages.
+   - Press the Button A (on BitDogLab) to cycle through the three hardcoded messages.
    - As each character is played, the corresponding character is displayed on the OLED and its Morse code is produced by the buzzer.
 
 ## Customization
