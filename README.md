@@ -1,6 +1,6 @@
 # STM32F411 Blackpill Morse Encoder
 
-This project demonstrates a Morse code encoder running on an STM32F411 (Blackpill) board that utilizes a buzzer (with PWM) to play Morse signals and an OLED display (from BitDogLab) to show each character as it is played. Instead of using UART communication, the project features three pre-defined messages that can be selected by a user through a button.
+This project demonstrates a Morse code encoder running on an STM32F411 Blackpill board that utilizes a buzzer (with PWM) to play Morse signals and an OLED display (from BitDogLab) to show each character as it is played. Instead of using UART communication, the project features three pre-defined messages that can be selected by a user through a button.
 
 ## Features
 
