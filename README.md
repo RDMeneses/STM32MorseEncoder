@@ -5,14 +5,18 @@ This project demonstrates a Morse code encoder running on an STM32F411 (Blackpil
 ## Features
 
 - **Hardcoded Messages:** Three pre-defined messages stored in firmware.
+- 
 - **Button Selection:** Use a hardware button to cycle through the available messages.
+- 
 - **Morse Code Playback:** Converts alphanumeric characters (A-Z, 0-9) to Morse code and reproduces it:
-  - Dot: 200ms tone
-  - Dash: 600ms tone
-  - Intra-character gap: 200ms silence
-  - Inter-character gap: 600ms silence
-  - Inter-word gap: 1400ms silence
+  - **Dot:** 200ms 
+  - **Dash:** 600ms 
+  - **Intra-character gap:** 200ms 
+  - **Inter-character gap:** 600ms
+  - **Inter-word gap: **1400ms
+    
 - **OLED Display:** Displays the current character on an SSD1306-based OLED during playback.
+- 
 - **Buzzer Control:** Uses PWM (via a timer) to drive the buzzer.
 
 ## Prerequisites
