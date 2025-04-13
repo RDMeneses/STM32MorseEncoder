@@ -29,9 +29,9 @@ This project demonstrates a Morse code encoder running on an STM32F411 Blackpill
   
 ## File Structure
 
-- `ProjectName.ioc` – CubeMX configuration file.
-- `Src/main.c` – Main application file with project logic.
-- `Inc/` – Header files (including OLED driver headers).
+- `MORSE.ioc` – CubeMX configuration file.
+- `Core/Src/main.c` – Main application file with project logic.
+- `Core/Inc/` – Header files (including OLED driver headers).
 - Other STM32CubeIDE auto-generated files and folders.
 
 ## Usage
