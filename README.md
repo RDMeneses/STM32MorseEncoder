@@ -6,7 +6,7 @@ This project implements a Morse code encoder on a STM32F411 Blackpill board that
 
 - **Hardcoded Messages:** Three pre-defined messages stored in firmware.
 - **Button Selection:** Use a hardware button to cycle through the available messages.
-- **Morse Code Playback:** Converts alphanumeric characters (A-Z, 0-9) to Morse code and reproduces it with the buzzer:
+- **Morse Code Playback:** Converts alphanumeric characters (A-Z, 0-9) to Morse code and reproduces it with a buzzer (BitDogLab peripheral):
   - **Dot:** 200ms 
   - **Dash:** 600ms 
   - **Intra-character gap:** 200ms 
